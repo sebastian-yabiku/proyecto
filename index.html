@@ -8,7 +8,7 @@
     <meta
       name="description"
       content="Pagina web sobre portafolio de sebastian yabiku, creada en conjunto en el 
-        programa codiGO"
+    programa codiGO"
     />
     <meta
       name="keywords"
@@ -24,7 +24,7 @@
       property="og:description"
       itemprop="description"
       content="Pagina web sobre portafolio de sebastian yabiku, creada en conjunto en el 
-        programa codiGO"
+    programa codiGO"
     />
     <meta
       property="og:image"
@@ -44,15 +44,73 @@
     <meta
       name="twitter:description"
       content="Pagina web sobre portafolio de sebastian yabiku, creada en conjunto en el 
-          programa codiGO"
+      programa codiGO"
     />
     <meta
       name="twitter:image"
       content="https://sebastian-yabiku.github.io/proyecto/images/banner.png"
     />
+
+    <script>
+      window.twttr = (function(d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+
+        return t;
+      })(document, "script", "twitter-wjs");
+    </script>
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0&appId=1009709955762555&autoLogAppEvents=1"
+    ></script>
     <div class="wrapper">
+      <ul class="list-social">
+        <li>
+          <a
+            class="twitter-share-button"
+            href="https://twitter.com/intent/tweet"
+            data-size="large"
+            data-text="Pagina web sobre portafolio de sebastian yabiku, creada en conjunto en el programa codiGO"
+            data-url="https://sebastian-yabiku.github.io/proyecto/"
+            data-hashtags="codiGO, frontend"
+            data-via="sebastianyabiku"
+            data-related="frontend, codiGO"
+          >
+            Tweet
+          </a>
+        </li>
+        <li>
+          <div
+            class="fb-share-button"
+            data-href="https://sebastian-yabiku.github.io/proyecto/"
+            data-layout="button_count"
+            data-size="large"
+          >
+            <a
+              target="_blank"
+              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsebastian-yabiku.github.io%2Fproyecto%2F&amp;src=sdkpreparse"
+              class="fb-xfbml-parse-ignore"
+              >Compartir</a
+            >
+          </div>
+        </li>
+      </ul>
       <!--BANNER-->
       <section class="banner">
         <h1>codiGO</h1>
@@ -205,6 +263,17 @@
             height="92"
             alt="eight"
           />
+        </div>
+      </section>
+
+      <!--CLIENTS-->
+      <section class="clients">
+        <h2>Clientes</h2>
+        <div class="items">
+          <img src="/images/clients/1.png" width="178" height="67" alt="one" />
+          <img src="/images/clients/2.png" width="202" height="54" alt="one" />
+          <img src="/images/clients/3.png" width="178" height="69" alt="one" />
+          <img src="/images/clients/4.png" width="194" height="67" alt="one" />
         </div>
       </section>
 
