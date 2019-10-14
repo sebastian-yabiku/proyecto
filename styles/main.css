@@ -1,0 +1,76 @@
+/*
+GLOBAL
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+Layout
+*/
+.wrapper {
+  position: relative;
+  width: 960px;
+  margin: auto;
+}
+
+/*
+.list-social
+*/
+.list-social {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
+.list-social li {
+  margin-left: 20px;
+}
+
+/*
+.banner
+*/
+.banner {
+  position: relative;
+}
+
+.banner h1 {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.banner h2 {
+  position: absolute;
+  bottom: 140px;
+  left: 52px;
+  padding: 20px;
+  background: rgba(114, 153, 254, .5);
+}
