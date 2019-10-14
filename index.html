@@ -52,7 +52,6 @@
     />
 
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./fonts/roboto/roboto.css">
     <link rel="stylesheet" href="./styles/main.css">
 
     <script>
@@ -286,12 +285,32 @@
       <section class="contact">
         <h2>Contacto</h2>
         <form class="form">
-          <input class="ctrl" type="text" placeholder="Nombre" />
-          <input class="ctrl" type="text" placeholder="Apellido" />
-          <input class="ctrl" type="email" placeholder="Email" />
-          <input class="ctrl" type="text" placeholder="Telefono" />
-          <textarea placeholder="Descripcion"></textarea>
-          <button type="submit">ENVIAR</button>
+          <div class="row">
+            <div class="col">
+              <input class="ctrl" type="text" placeholder="Nombre" />
+            </div>
+            <div class="col">
+              <input class="ctrl" type="text" placeholder="Apellido" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input class="ctrl" type="email" placeholder="Email" />
+            </div>
+            <div class="col">
+              <input class="ctrl" type="text" placeholder="Telefono" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <textarea class="ctrl" placeholder="Descripcion"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button type="submit">ENVIAR</button>
+            </div>
+          </div>
         </form>
       </section>
     </div>
