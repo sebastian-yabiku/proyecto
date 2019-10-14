@@ -76,16 +76,15 @@ Layout
   bottom: 140px;
   left: 52px;
   padding: 20px;
-  background: rgba(114, 153, 254, .5);
+  background: rgba(114, 153, 254, 0.5);
 }
-
 
 /*
 .skills 
 */
 .skills {
   padding: 34px;
-  background: #7299FE;
+  background: #7299fe;
 }
 
 .skills h2 {
@@ -100,7 +99,7 @@ Layout
 }
 
 .skills .bar-title {
-  margin-bottom: 18px;  
+  margin-bottom: 18px;
   width: 50%;
 }
 
@@ -112,7 +111,7 @@ Layout
   padding-left: 20px;
 }
 
-.skills .bar-title h3{
+.skills .bar-title h3 {
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -159,4 +158,28 @@ Layout
 
 .services h3 {
   font-size: 24px;
+}
+
+/*
+.portfolio
+*/
+.portfolio {
+  background: #fdd233;
+  padding: 34px;
+  text-align: center;
+}
+
+.portfolio h2 {
+  margin-bottom: 56px;
+}
+
+.portfolio .items {
+  padding: 0 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio img {
+  margin: 0 6px 12px;
 }
