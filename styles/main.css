@@ -183,3 +183,26 @@ Layout
 .portfolio img {
   margin: 0 6px 12px;
 }
+
+/*
+.clients
+*/
+.clients {
+  padding: 34px 34px 96px;
+  background: #3f4e62;
+  text-align: center;
+}
+
+.clients h2 {
+  margin-bottom: 22px;
+}
+
+.clients .items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients img {
+  margin: 0 11px;
+}
